@@ -543,7 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Left","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"check","value":{"$content":"0","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1809377556953994518}
@@ -27617,11 +27617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5876448068092364667, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.263
+      value: -16.49
       objectReference: {fileID: 0}
     - target: {fileID: 5876448068092364667, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.4333
+      value: -8.17
       objectReference: {fileID: 0}
     - target: {fileID: 5876448068092364667, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27661,14 +27661,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2685213461821234762, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1809377556953994523}
+      addedObject: {fileID: 1809377556953994528}
   m_SourcePrefab: {fileID: 100100000, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
 --- !u!1 &1809377556953994518 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2685213461821234762, guid: 50dcdbb433cc77340ba66d7de396726a, type: 3}
   m_PrefabInstance: {fileID: 1809377556953994517}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1809377556953994523
+--- !u!50 &1809377556953994528
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
