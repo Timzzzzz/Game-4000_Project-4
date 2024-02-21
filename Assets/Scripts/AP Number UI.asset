@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: AP Number UI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":-308.0,"y":-191.0},"guid":"a989e5e6-a7e0-4f6f-a68f-fbb996297f99","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"AP","$type":"System.String"}},"position":{"x":-570.0,"y":-49.0},"guid":"6e47013d-1b8a-4af2-93a5-3bdf592a8b72","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"coroutine":false,"defaultValues":{},"position":{"x":-477.0,"y":-180.0},"guid":"39d524dd-c384-4177-9cdd-01f9ea4e3692","$version":"A","$type":"Unity.VisualScripting.Update","$id":"14"},{"chainable":false,"parameterNames":[],"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":-406.0,"y":-44.0},"guid":"cf26d127-416a-40a8-a6e0-8bcfdd1404e7","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"assign","guid":"af753165-d736-4448-883f-a79822e9cf3f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"312bc47a-5e84-484e-aefc-bb4f60232ad1","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"result","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"cf3dfb27-aba4-4bae-983f-0d5fa42e8954","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
