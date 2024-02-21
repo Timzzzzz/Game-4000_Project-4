@@ -7,7 +7,6 @@ TagManager:
   - wall
   - bullet
   - BossBullet
-  - stat
   layers:
   - Default
   - TransparentFX
